@@ -1,54 +1,36 @@
-# React + TypeScript + Vite
+# 🕶️ VirtualR 클론 랜딩 페이지
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+이 프로젝트는 **React**, **TypeScript**, **Vite**, **Tailwind CSS**를 사용하여 가상현실 소프트웨어 플랫폼의 랜딩 페이지를 클론한 것입니다.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 미리보기
 
-## Expanding the ESLint configuration
+![HeroSection][./screenshot1.png]
+![FeatureSection][./screenshot2.png]
+![Workflow][./screenshot3.png]
+![Pricing][./screenshot4.png]
+![Testimonials][./screenshot5.png]
+![Footer][./screenshot6.png]
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 주요 기능
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- 현대적인 반응형 디자인
+- Tailwind CSS를 활용한 빠른 스타일링
+- Vite를 통한 빠른 개발 환경 설정
+- TypeScript로 타입 안정성 확보
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🛠️ 사용 기술 스택
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- **React** – 사용자 인터페이스 구축
+- **TypeScript** – 정적 타입을 제공하는 JavaScript
+- **Vite** – 빠른 개발 서버와 번들러
+- **Tailwind CSS** – 유틸리티 기반 CSS 프레임워크
+
+---
+
+## 📁 프로젝트 구조
+
+virtualr-clone/ ├── public/ ├── src/ │ ├── components/ │ ├── assets/ │ ├── App.tsx │ └── main.tsx ├── index.html ├── package.json ├── tsconfig.json └── vite.config.ts
