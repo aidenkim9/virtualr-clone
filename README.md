@@ -6,12 +6,12 @@
 
 ## 📸 미리보기
 
-![HeroSection][./screenshot1.png]
-![FeatureSection][./screenshot2.png]
-![Workflow][./screenshot3.png]
-![Pricing][./screenshot4.png]
-![Testimonials][./screenshot5.png]
-![Footer][./screenshot6.png]
+![HeroSection](./screenshot1.png)
+![FeatureSection](./screenshot2.png)
+![Workflow](./screenshot3.png)
+![Pricing](./screenshot4.png)
+![Testimonials](./screenshot5.png)
+![Footer](./screenshot6.png)
 
 ## 🚀 주요 기능
 
